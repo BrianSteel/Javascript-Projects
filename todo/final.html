@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Properties -->
+    <link rel="stylesheet" href="./css/final.css">
+    <link rel="stylesheet" href="../../../packages/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Title -->
+    <title>TO DO APP</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <label for="Todo" class="text">Important Stuff</label>
+        <input autocomplete="off" placeholder="Tasks" name="Todo" id="stuffs" size=30>
+        <label for="Priority" class="text">Priority</label>
+        <input name="Priority" list="1-10" id="Pid" size=5>
+        <datalist id="1-10">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+        </datalist>
+            <i class="fa fa-plus styledButton" id="addButton"></i>
+            <i id="date"></i>
+            <i class="fa fa-refresh" aria-hidden="true" id="clearlist"></i>
+    </div>
+    <div class="container1">
+        <ul id="list">
+        </ul>
+    </div>
+<div id="error"></div>
+
+</body>
+<script src="final.js"></script>
+
+</html>
