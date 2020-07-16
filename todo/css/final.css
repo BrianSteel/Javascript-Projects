@@ -119,6 +119,14 @@ p {
     padding: 0;
 }
 
+.iComplete:hover{
+    content: "\f014";
+    font-family: FontAwesome;
+    font-style: normal;
+    color: rgb(117, 8, 8);
+    transition: 300ms;
+}
+
 .iCompleteActivated:before {
     content: "\f00c";
     font-family: FontAwesome;
@@ -149,6 +157,7 @@ p {
     font-family: FontAwesome;
     font-style: normal;
     color: rgb(117, 8, 8);
+    transition: 300ms;
 }
 
 .Lt {
